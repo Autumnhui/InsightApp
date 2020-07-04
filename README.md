@@ -1,4 +1,4 @@
-<center>![logo](./pic/insight.png)</center>
+<center><p>![logo](./pic/insight.png)</p></center>
 <center><h1>📷Insight ————“识相”APP项目<h1></center>
 
 
