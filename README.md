@@ -1,5 +1,5 @@
-![logo](./pic/insight.png)
-# 📷Insight ————“识相”APP项目<h1></center>
+![logo](./pic/logo.png)
+# 📷Insight ————“识相”APP项目
 
 原型预览:[点击跳转](https://wp.autumnhui.cn/insight/)
 
