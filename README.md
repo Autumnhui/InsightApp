@@ -1,4 +1,4 @@
-<div class="logo">![logo](./pic/logo.png)</div>
+<div class="logo"><p>![logo](./pic/logo.png)</p></div>
 <style type="text/css">
 	.logo{
 		text-align: center;
