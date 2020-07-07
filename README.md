@@ -1,9 +1,11 @@
-<div class="logo"><p>![logo](./pic/logo.png)</p></div>
-<style type="text/css">
+<!-- <div class="logo"><p> -->
+![logo](./pic/logo.png)
+<!-- </p></div> -->
+<!-- <style type="text/css">
 	.logo{
 		text-align: center;
 	}
-</style>
+</style> -->
 
 # 📷Insight ————“识相”APP项目
 
