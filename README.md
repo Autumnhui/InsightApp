@@ -1,4 +1,10 @@
-![logo](./pic/logo.png)
+<div class="logo">![logo](./pic/logo.png)</div>
+<style type="text/css">
+	.logo{
+		text-align: center;
+	}
+</style>
+
 # 📷Insight ————“识相”APP项目
 
 原型预览:[点击跳转](https://wp.autumnhui.cn/insight/)
