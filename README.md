@@ -2,7 +2,9 @@
 
 # 📷Insight ————“识相”APP项目
 
-原型预览:[点击跳转](https://wp.autumnhui.cn/insight/)
+## 1.原型预览:[点击跳转](https://wp.autumnhui.cn/insight/)
+
+## 2. 20*20页PPT（带口白） :[点击下载](https://gitee.com/autumnhui/InsightApp/raw/master/api-ppt.pptx)
 
 ---
 # 项目名称
