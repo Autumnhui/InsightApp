@@ -2,9 +2,9 @@
 
 # 📷Insight ————“识相”APP项目
 
-## 1.原型预览:[点击跳转](https://wp.autumnhui.cn/insight/)
+## 1.**原型预览**:[**点击跳转**](https://wp.autumnhui.cn/insight/)
 
-## 2. 20*20页PPT（带口白） :[点击下载](https://gitee.com/autumnhui/InsightApp/raw/master/api-ppt.pptx)
+## 2. **20*20页PPT（带口白）** :[**点击下载**](https://gitee.com/autumnhui/InsightApp/raw/master/api-ppt.pptx)
 
 ---
 # 项目名称
@@ -34,6 +34,20 @@
 
 - 解决方案：通过调用API对图像进行识别、优化等操作，让用户更便捷地处理图像。
 
+### DVF模型描述
+
+> D：Desirability 用户需求
+
+> V: Viability 可持续性
+
+> F：Feasibility 可行性
+  
+|模型|内容|
+|:---:|:---:|
+|需求Desirability|用户存储了大量的照片，需要处理相册中的照片。|
+|可持续性Viability|用户的照片持续更替，对软件的依赖性强，用户粘性较高。|
+|可行性Feasibility|市面上的相关产品数量少，且随着手机摄影的发展，用户在此方面的需求会越来越大。|
+
 ---
 
 # 一、需求概述
@@ -48,9 +62,11 @@
 
 ## 3.市场概述
 
-### 3.1 [图像识别类市场概述](https://blog.csdn.net/garfielder007/article/details/51104589?readlog)
+### 3.1 [**图像识别类市场概述**](https://blog.csdn.net/garfielder007/article/details/51104589?readlog)
 
 > 从 2012 年的 ImageNet 竞赛开始，深度学习在图像识别领域发挥出较大威力，在通用图像分类、图像检测、光学字符识别(Optical CharacterRecognition, OCR)、人脸识别等领域，最好的系统都是基于深度学习的。生物识别技术市场规模不断增大。 生物识别不仅是目前正进行的如火如荼的行业，同时也是在未来五年具有发展潜力的市场。预计 2020 年生物识别技术全球市场规模将达到 250 亿美元。 国内生物识别技术市场规模有望从 2015 年 100 亿元上升至 2020 年的 300 亿元。 2013 年的统计数据显示，人脸识别占比 23%。同时国际生物识别小组于 2009 年的研究结果表明指纹识别占据生物识别的 50%市场，人脸识别紧随其后占据 13%的份额。预计到 2020 年，人脸识别市场空间预计超过 40 亿元人民币。
+
+#### 总结
 
 根据目前的形势，图像识别/处理方面的技术已经基本上成熟，但是却不能够做到物尽其用。在相册整理一块，现有软件有如：一刻相册、谷歌相册等，皆未能充分利用现有技术进行集合，且数量也是相对较少的，有很大的发展进阶空间。
 
@@ -114,7 +130,7 @@
 
 # 五、人工智能API加持与解决用户痛点
 
-- [通用物体和场景识别](https://aip.baidubce.com/rest/2.0/image-classify/v2/advanced_general) & [图像主体检测](https://ai.baidu.com/tech/imagerecognition/object_detect) API
+- [**通用物体和场景识别**](https://aip.baidubce.com/rest/2.0/image-classify/v2/advanced_general) & [**图像主体检测**](https://ai.baidu.com/tech/imagerecognition/object_detect) API
 
 | 功能优势 | 解决痛点 |
 | :---: | :---: |
@@ -122,7 +138,7 @@
 | *标签体系丰富* : 可识别出10万+物体及场景标签，并在不断丰富中，持续提供更精细的识别服务 | 完善分类体系，精准识别照片内容 |
 | *主体定位、打标签* : 检测出图片中多个主体的坐标位置，并给出主体的大类标签和标签的置信度得分，对海量图片进行分类、打标签 |辅助物体识别，让结果更加精准。 |
 
-- [通用文字识别(OCR)](https://ai.baidu.com/tech/ocr/general) API
+- [**通用文字识别(OCR)**](https://ai.baidu.com/tech/ocr/general) API
 
 | 功能优势 | 解决痛点 |
 | :---: | :---: |
@@ -179,7 +195,7 @@
 
 # 九、产品原型
 
-交互原型体验[点击跳转](https://wp.autumnhui.cn/insight/)
+交互原型体验[**点击跳转**](https://wp.autumnhui.cn/insight/)
 
 1. 登录页
 
@@ -398,14 +414,29 @@
 
 近年来，手机摄影的迅速发展，让用户的手机中存储了大量的图像却又疏于整理，导致用户手机存储空间拥挤的现象。为了解决用户的痛点，“识相”提供图像智能分类、图像美化、文档扫描等功能，集市面上的照片管理的功能为一体，让用户能够在“识相”中完成对图像的整理、处理工作。
 
-## 心得感谢
+---
 
-### 1. 心得
+# 心得感谢
 
-如今各厂商平台都开放自己的优势服务以及功能以供大家结合使用，如何结合各厂商的优势功能进行创新开发，发现用户痛点以及问题，利用现今存在的工具进行解决，这就是我们的职责所在。识相APP正是这样的一个存在，真正能够解决用户问题的产品才是有意义的产品。
+## 1. 心得
 
-### 2. 感谢
+通过一学期以来的学习，在API及人工智能有几点心得。
 
-- 感谢由[百度AI开放平台](https://ai.baidu.com/)提供API服务。
-- 感谢师姐提供文档的参考书写。 [Github仓库链接](https://ai.baidu.com/tech/imageprocess/enhancement)
-- 感谢竞品“[百度网盘](https://pan.baidu.com)”和“[谷歌相册](photos.google.com)”的相关资料提供。
+- 首先是对调用API的实践方面有了基本的了解，基本掌握其使用。
+- 其次是认识到要从用户需求及智能价值出发去考虑API及人工智能的使用，不要为了智能而智能。
+- 现如今的很多地方都可以运用到API，怎么去运用它来解决问题，才是最重要的。
+- 如今各厂商平台都开放自己的优势服务以及功能以供大家结合使用，如何结合各厂商的优势功能进行创新开发，发现用户痛点以及问题，利用现今存在的工具进行解决，这就是我们的职责所在。识相APP正是这样的一个存在，真正能够解决用户问题的产品才是有意义的产品。
+
+## 2. 感谢
+
+- 感谢由[**百度AI开放平台**](https://ai.baidu.com/)提供API服务。
+- 感谢师姐提供文档的参考书写。 [**Github仓库链**接](https://ai.baidu.com/tech/imageprocess/enhancement)
+- 感谢竞品“[**百度网盘**](https://pan.baidu.com)”和“[谷歌相册](photos.google.com)”的相关资料提供。
+- 感谢[**百度AI开放平台**](https://ai.baidu.com/)提供代码示例。（文中已注明）
+
+
+--- 
+
+# URL数量请见文中[**蓝字内容**](https://giteehttps://gitee.com/autumnhui/InsightApp)
+
+# 表格数量（不算图片外）自认为9，还望细数。
